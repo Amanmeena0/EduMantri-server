@@ -1,0 +1,75 @@
+.
+├── __init__.py
+├── Agent
+│   ├── __init__.py
+│   ├── Doubts_agent
+│   │   ├── __init__.py
+│   │   └── Sub_agent
+│   │       ├── Active_recall.py
+│   │       ├── Misconception.py
+│   │       └── Worked_solution.py
+│   ├── GeneralAgents
+│   │   └── Retrieval_agents.py
+│   ├── GenerationAgent
+│   │   ├── __init__.py
+│   │   └── Sub_agent
+│   │       ├── Flash_card.py
+│   │       ├── Practice_questtions.py
+│   │       └── summary.py
+│   ├── Host_agent.py
+│   ├── Orchestrator.py
+│   └── Problem_solver_agent
+│       ├── __init__.py
+│       └── Sub_agentw
+│           ├── Comparison.py
+│           ├── Concept_solver.py
+│           └── Problem_solver.py
+├── Guardrail
+│   ├── __init__.py
+│   └── guardrail.py
+├── main.py
+├── mcp_tools
+│   ├── __init__.py
+│   ├── docTool
+│   │   ├── __init__.py
+│   │   └── fetch.py
+│   ├── githubTool
+│   │   └── __init__.py
+│   ├── webTool
+│   │   ├── __init__.py
+│   │   └── scraper.py
+│   └── YoutubeTool
+│       └── __init__.py
+├── oldFiles
+│   ├── app.py
+│   ├── document_processing_pipline.py
+│   ├── generate.py
+│   └── rag_pipline.py
+├── prompts
+│   ├── __init__.py
+│   ├── HelperPrompts.py
+│   ├── host_prompt.py
+│   └── prompts.py
+├── Readme.md
+├── requirements.txt
+├── Services
+│   ├── __init__.py
+│   ├── ChainsHub.py
+│   ├── Deb
+│   │   ├── __init__.py
+│   │   ├── debug_retriever.py
+│   │   ├── debug_similarity_search.py
+│   │   ├── get_collection_stats.py
+│   │   └── rag_with_followups.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   └── models.py
+│   ├── Session.py
+│   └── utils
+│       ├── __init__.py
+│       ├── Chunking.py
+│       ├── createDataBase.py
+│       └── retrival.py
+└── structure.txt
+
+21 directories, 52 files
